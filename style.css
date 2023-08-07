@@ -24,7 +24,7 @@ body {
   align-items: center;
 }
 
-.header {
+.main {
   display: flex;
   flex-direction: row-reverse;
   background-color: var(--cardBG);
@@ -51,7 +51,7 @@ img {
 
 /* 📑 Main Section */
 
-.main {
+.header {
   text-align: left;
   padding: 4rem;
 }
@@ -120,7 +120,7 @@ span {
 
 /* 📱 Media Query */
 @media only screen and (max-width: 1150px) {
-  .header {
+  .main {
     flex-direction: column;
     max-width: 654px;
     max-height: 2000px;
@@ -134,7 +134,7 @@ span {
     border-radius: 10px 10px 0 0;
   }
 
-  .main {
+  .header {
     text-align: center;
     padding: 3rem;
   }
