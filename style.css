@@ -53,17 +53,21 @@ img {
 
 .main {
   text-align: left;
-  padding: 5rem;
+  padding: 4rem;
+}
+
+h1 {
+  margin: 0;
 }
 
 .article {
-  font-size: 2.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   padding-bottom: 1.5rem;
 }
 
-section {
-  padding-right: 4.7rem;
+.section {
+  padding-right: 5.8rem;
 }
 
 .accent {
@@ -135,7 +139,7 @@ span {
     padding: 3rem;
   }
 
-  section {
+  .section {
     padding: 0;
   }
 
